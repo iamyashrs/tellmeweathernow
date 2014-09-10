@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href='static/images/favicon.png' rel='icon' type='image/x-icon'/>
+    <link href="static/images/favicon.png" rel="icon">
+    <meta content='Yash Raj Singh' name='author'/>
+    <title>Result - TellMeWeatherNow!</title>
+
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <link rel="stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/flick/jquery-ui.css" />
+</head>
+<body class="result_body">
+
+    <div id="clouds_r">
+        <div class="cloud x1"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+    </div>
+
+    <div class="container holder">
+        <h1 style="color:white;margin-top: 0;margin-bottom: 10px;text-align: left;font-weight:bold;">today</h1>
+
+        {{ range . }}
+        <div class="card flyin">
+            <h3>{{ .City }}</h3>
+            <p>{{ .WeatherDesc }}</p>
+            <hr style="border-color:#95B3E3;"/>
+            <img src="{{ .WeatherIconUrl }}" />
+            <hr style="border-color:#95B3E3;"/>
+            <h2>{{ .TempMaxC }}&deg;C</h2> Min
+            <br>
+            <h2>{{ .TempMinC }}&deg;C</h2> Max
+        </div>
+        {{ end }}
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/static/js/main.js"></script>
+
+</body>
+</html>

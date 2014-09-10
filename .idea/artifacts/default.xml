@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="default">
+    <output-path>$PROJECT_DIR$/out/artifacts/default</output-path>
+    <root id="root">
+      <element id="module-output" name="goconf" />
+    </root>
+  </artifact>
+</component>
