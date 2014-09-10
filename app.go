@@ -117,7 +117,7 @@ var (
 		"result.html",
 		"index.html",
 	))
-	key = "18b005b8af54d992cbaf31f8eabf54baa7260170"
+	key = "key"
 )
 
 type jsonobject struct {
