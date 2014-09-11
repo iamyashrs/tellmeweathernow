@@ -16,6 +16,7 @@ import (
 func init() {
 	http.HandleFunc("/", main)
 	http.HandleFunc("/result", result)
+	http.HandleFunc("/error", errorPage)
 }
 
 type City_weather struct{
@@ -47,11 +48,11 @@ func result(w http.ResponseWriter, r *http.Request) {
 	wg.Add(5)
 
 	citys := []string{
+		r.FormValue("city0"),
 		r.FormValue("city1"),
 		r.FormValue("city2"),
 		r.FormValue("city3"),
 		r.FormValue("city4"),
-		r.FormValue("city5"),
 	}
 
 	resc, errc := make(chan string), make(chan error)
@@ -77,7 +78,10 @@ func result(w http.ResponseWriter, r *http.Request) {
 			}
 
 			var jsontype jsonobject
-			json.Unmarshal(body, &jsontype)
+			err = json.Unmarshal(body, &jsontype)
+			if err != nil {
+				return
+			}
 
 			city1 := City_weather{
 				jsontype.Data.Request[0].Query,
@@ -112,10 +116,17 @@ func result(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func errorPage(w http.ResponseWriter, r *http.Request){
+	if err := templates.ExecuteTemplate(w, "error.html", nil); err != nil {
+		return
+	}
+}
+
 var (
 	templates = template.Must(template.ParseFiles(
 		"result.html",
 		"index.html",
+		"error.html",
 	))
 	key = "18b005b8af54d992cbaf31f8eabf54baa7260170"
 )

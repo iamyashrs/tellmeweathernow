@@ -8,7 +8,7 @@
     <link href='static/images/favicon.png' rel='icon' type='image/x-icon'/>
     <link href="static/images/favicon.png" rel="icon">
     <meta content='Yash Raj Singh' name='author'/>
-    <title>Result - TellMeWeatherNow!</title>
+    <title>Error - TellMeWeatherNow!</title>
 
     <link rel="stylesheet" href="/static/css/main.css">
     <link rel="stylesheet" href="/static/css/bootstrap.css">
@@ -25,27 +25,8 @@
     </div>
 
     <div class="container holder">
-        <div class="menu">
-            <a href="/" class="icon"><span class="glyphicon glyphicon-arrow-left"></span></a>
-            <h1 class="title1">today</h1>
-            <a href="/result?{{ range $i, $v := .}}&city{{$i}}={{ $v.City }}{{end}}" class="icon" style="margin-left: 8px;"><span class="glyphicon glyphicon-repeat"></span> </a>
-        </div>
-
-        <div class="content">
-            {{ range . }}
-            <div class="card flyin">
-                <h3>{{ .City }}</h3>
-                <p>{{ .WeatherDesc }}</p>
-                <hr style="border-color:#95B3E3;"/>
-                <img src="{{ .WeatherIconUrl }}" />
-                <hr style="border-color:#95B3E3;"/>
-                <h2>{{ .TempMaxC }}&deg;C</h2> Min
-                <br>
-                <h2>{{ .TempMinC }}&deg;C</h2> Max
-            </div>
-            {{ end }}
-        </div>
-
+        <h1 class="head" style="color:rgb(214, 7, 7);">Oops.. you did something wrong.</h1>
+        <h1><a href="/" class="head">GO BACK?</a></h1>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
