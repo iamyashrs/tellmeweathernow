@@ -81,50 +81,19 @@
       <file leaf-file-name="app.go" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.39184397" vertical-offset="0" max-vertical-offset="564">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="26" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1054">
               <folding>
-                <element signature="e#16#147#0" expanded="false" />
-                <element signature="n#!!block;n#init#0" expanded="false" />
-                <element signature="e#268#385#0" expanded="false" />
-                <element signature="n#!!block;n#main#0" expanded="false" />
-                <element signature="e#461#496#0" expanded="false" />
-                <element signature="e#569#582#0" expanded="false" />
-                <element signature="n#!!block;n#result#0" expanded="false" />
-                <element signature="e#1022#1921#0" expanded="false" />
-                <element signature="e#1047#1912#0" expanded="false" />
-                <element signature="e#1286#1307#0" expanded="false" />
-                <element signature="e#1395#1428#0" expanded="false" />
-                <element signature="e#1515#1532#0" expanded="false" />
-                <element signature="e#1956#2059#0" expanded="false" />
-                <element signature="e#2148#2214#0" expanded="false" />
-                <element signature="n#!!block;n#errorPage#0" expanded="false" />
-                <element signature="e#2345#2358#0" expanded="false" />
-                <element signature="e#2362#2520#0" expanded="false" />
-                <element signature="e#2522#2579#0" expanded="false" />
-                <element signature="e#2581#2679#0" expanded="false" />
-                <element signature="e#2681#2760#0" expanded="false" />
-                <element signature="e#2762#3067#0" expanded="false" />
-                <element signature="e#3069#3125#0" expanded="false" />
-                <element signature="e#3127#3186#0" expanded="false" />
+                <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2363">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="try" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/try">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="0" selection-start="1762" selection-end="2341" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2635">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,9 +119,9 @@
         <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/result.html" />
         <option value="$PROJECT_DIR$/error.html" />
         <option value="$PROJECT_DIR$/app.go" />
+        <option value="$PROJECT_DIR$/result.html" />
       </list>
     </option>
   </component>
@@ -193,7 +162,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -209,12 +177,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goconf" />
+              <option name="myItemId" value="tellmeweathernow-gopherconindia2015" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,6 +205,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -549,11 +519,13 @@
       <workItem from="1410322403269" duration="16849000" />
       <workItem from="1410364643763" duration="6522000" />
       <workItem from="1410385084482" duration="9119000" />
+      <workItem from="1411256506021" duration="72000" />
+      <workItem from="1411256617051" duration="139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91354000" />
+    <option name="totallyTimeSpent" value="91565000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -576,8 +548,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -628,11 +600,46 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/try">
+    <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="1762" selection-end="2341" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2635">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="20" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2363" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
@@ -645,39 +652,13 @@
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="34" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="748">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="15" column="29" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result.html">
@@ -686,13 +667,6 @@
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="694" max-vertical-offset="1326">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,46 +680,13 @@
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="969">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="442">
-          <folding />
-        </state>
+        <state line="15" column="23" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="442" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result.html">
@@ -767,46 +708,13 @@
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1955">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="8" column="23" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result.html">
@@ -828,46 +736,13 @@
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="42" selection-start="1420" selection-end="1420" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="1360">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/try">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
-          <folding />
-        </state>
+        <state line="8" column="23" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/result.html">
@@ -889,31 +764,7 @@
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1632">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -927,62 +778,14 @@
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="1" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="340">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="595">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,11 +806,6 @@
     <entry file="file://C:/go_appengine/demos/logviewer/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="9" selection-start="73" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.12639405" vertical-offset="0" max-vertical-offset="538" />
       </provider>
     </entry>
     <entry file="file://C:/go_appengine/demos/logviewer/logviewer.go">
@@ -1070,13 +868,6 @@
         <state line="31" column="1" selection-start="578" selection-end="578" vertical-scroll-proportion="-0.964539" vertical-offset="1071" max-vertical-offset="3281" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/try">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="1762" selection-end="2341" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="2635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/wsymbol_0001_sunny.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1084,40 +875,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="731">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1886" selection-end="2233" vertical-scroll-proportion="-20.923077" vertical-offset="255" max-vertical-offset="1054">
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="28" column="36" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="77" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.9066667" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="28" column="77" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.9066667" vertical-offset="0" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="13" selection-start="1178" selection-end="1178" vertical-scroll-proportion="2.29078" vertical-offset="0" max-vertical-offset="4573">
-          <folding />
-        </state>
+        <state line="76" column="13" selection-start="1178" selection-end="1178" vertical-scroll-proportion="2.29078" vertical-offset="0" max-vertical-offset="4573" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="2363">
-          <folding />
+        <state line="1" column="2" selection-start="3" selection-end="3" vertical-scroll-proportion="-1.5070922" vertical-offset="867" max-vertical-offset="2363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1054">
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,32 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="2361" selection-end="2361" vertical-scroll-proportion="0.39184397" vertical-offset="0" max-vertical-offset="564">
-          <folding>
-            <element signature="e#16#147#0" expanded="false" />
-            <element signature="n#!!block;n#init#0" expanded="false" />
-            <element signature="e#268#385#0" expanded="false" />
-            <element signature="n#!!block;n#main#0" expanded="false" />
-            <element signature="e#461#496#0" expanded="false" />
-            <element signature="e#569#582#0" expanded="false" />
-            <element signature="n#!!block;n#result#0" expanded="false" />
-            <element signature="e#1022#1921#0" expanded="false" />
-            <element signature="e#1047#1912#0" expanded="false" />
-            <element signature="e#1286#1307#0" expanded="false" />
-            <element signature="e#1395#1428#0" expanded="false" />
-            <element signature="e#1515#1532#0" expanded="false" />
-            <element signature="e#1956#2059#0" expanded="false" />
-            <element signature="e#2148#2214#0" expanded="false" />
-            <element signature="n#!!block;n#errorPage#0" expanded="false" />
-            <element signature="e#2345#2358#0" expanded="false" />
-            <element signature="e#2362#2520#0" expanded="false" />
-            <element signature="e#2522#2579#0" expanded="false" />
-            <element signature="e#2581#2679#0" expanded="false" />
-            <element signature="e#2681#2760#0" expanded="false" />
-            <element signature="e#2762#3067#0" expanded="false" />
-            <element signature="e#3069#3125#0" expanded="false" />
-            <element signature="e#3127#3186#0" expanded="false" />
-          </folding>
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding />
         </state>
       </provider>
     </entry>
