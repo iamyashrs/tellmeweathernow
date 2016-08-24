@@ -6,11 +6,13 @@ import (
 
 	"appengine"
 	"appengine/urlfetch"
+
 	"io/ioutil"
 	"encoding/json"
 	"log"
 	"sync"
 	"net/url"
+	"time"
 )
 
 func init() {
@@ -39,9 +41,19 @@ func main(w http.ResponseWriter, r *http.Request) {
 	return
 }
 
+// createClientWithDeadline is urlfetch.Client with Deadline
+func createClientWithDeadline(context appengine.Context, t time.Duration) *http.Client {
+    return &http.Client{
+        Transport: &urlfetch.Transport{
+            Context:  context,
+            Deadline: t,
+        },
+    }
+}
+
 func result(w http.ResponseWriter, r *http.Request) {
 	c := appengine.NewContext(r)
-	client := urlfetch.Client(c)
+	client := createClientWithDeadline(c, time.Second*60)
 
 	var wg sync.WaitGroup
 
