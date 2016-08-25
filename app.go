@@ -3,16 +3,15 @@ package goconf
 import (
 	"html/template"
 	"net/http"
-
-	"appengine"
-	"appengine/urlfetch"
-
 	"io/ioutil"
 	"encoding/json"
 	"log"
 	"sync"
 	"net/url"
 	"time"
+
+	"appengine"
+	"appengine/urlfetch"
 )
 
 func init() {
@@ -53,7 +52,6 @@ func createClientWithDeadline(context appengine.Context, t time.Duration) *http.
 
 func result(w http.ResponseWriter, r *http.Request) {
 	c := appengine.NewContext(r)
-	client := createClientWithDeadline(c, time.Second*60)
 
 	var wg sync.WaitGroup
 
@@ -74,20 +72,22 @@ func result(w http.ResponseWriter, r *http.Request) {
 
 	for _, city := range citys {
 		go func(city string) {
+			defer wg.Done()
 			log.Println("Starting client for %v", city)
 			ur := "http://api.worldweatheronline.com/free/v1/weather.ashx?format=json&num_of_days=1&cc=no&key=" + key + "&q=" + url.QueryEscape(city)
 
+			client := createClientWithDeadline(c, time.Second*60)
 			resp, err := client.Get(ur)
 			if err != nil {
 				panic(err)
 			}
 
 			body, err := ioutil.ReadAll(resp.Body)
-			defer resp.Body.Close()
 			if err != nil {
 				errc <- err
 				return
 			}
+			defer resp.Body.Close()
 
 			var jsontype jsonobject
 			err = json.Unmarshal(body, &jsontype)
@@ -107,16 +107,15 @@ func result(w http.ResponseWriter, r *http.Request) {
 
 			resc <- string(body)
 			log.Println("%v", jsontype.Data.Weather[0].TempMaxC)
-			wg.Done()
 		}(city)
 	}
 
 	for i := 0; i < len(citys); i++ {
 		select {
-		case res := <-resc:
-			log.Println(res)
-		case err := <-errc:
-			log.Println(err)
+			case res := <-resc:
+				log.Println(res)
+			case err := <-errc:
+				log.Println(err)
 		}
 	}
 
