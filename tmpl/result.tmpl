@@ -1,0 +1,37 @@
+{{define "content"}}
+<div class="result_body">
+  <div class="container holder">
+    <div class="menu">
+      <a href="/" class="icon">
+        <span class="oi oi-arrow-thick-left"></span>
+      </a>
+      <h1 class="title1">today</h1>
+      <a href="/result?{{ range $i, $v := .}}&city{{$i}}={{ $v.City }}{{end}}" class="icon" style="margin-left: 8px;">
+        <span class="oi oi-reload"></span>
+      </a>
+    </div>
+
+    <div class="content">
+      {{ range . }}
+      <div class="card flyin">
+        <h3>{{ .City }}</h3>
+        <p>{{ .Desc }}</p>
+        <hr style="border-color:#95B3E3;"/>
+
+        <h3>{{ .Temp }}&deg;C</h3>
+        <p>Temperature</p>
+        <h3>{{ .TempMinC }}&deg;C</h3>
+        <p>Min</p>
+        <h3>{{ .TempMaxC }}&deg;C</h3>
+        <p>Max</p>
+        <hr style="border-color:#95B3E3;"/>
+        <h3>{{ .Pressure }}</h3>
+        <p>Pressure</p>
+        <h3>{{ .Humidity }}</h3>
+        <p>Humidity</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{end}}

@@ -1,0 +1,30 @@
+{{define "layout"}}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href='static/images/favicon.png' rel='icon' type='image/x-icon'/>
+    <link href="static/images/favicon.png" rel="icon">
+    <meta content='Yash Raj Singh' name='author'/>
+    <title>TellMeWeatherNow!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/main.css">
+  </head>
+  <body>
+    <div id="clouds_r">
+        <div class="cloud x1"></div>
+        <div class="cloud x2"></div>
+        <div class="cloud x3"></div>
+        <div class="cloud x4"></div>
+        <div class="cloud x5"></div>
+    </div>
+    {{template "content" .}}
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
+{{end}}

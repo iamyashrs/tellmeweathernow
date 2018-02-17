@@ -1,0 +1,13 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/briandowns/openweathermap",
+			"repository": "https://github.com/briandowns/openweathermap",
+			"vcs": "git",
+			"revision": "722564b6cf670ef4a8fce54d8913ac9a13e88ec1",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}

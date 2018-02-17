@@ -1,0 +1,40 @@
+{{define "content"}}
+<div class="container">
+  <div class="div">
+    <form action="/result" method="POST" name="form_demo" id="form_demo" class="center_div" enctype="multipart/form-data">
+      <h4 class="head" id="flyin">ENTER 5 CITIES FOR <span class="title">TELLMEWEATHERNOW!</span> </h4>
+      <label><input class="ff_elem" value="" id="f_elem_city1" name="city0" required placeholder="city"></label>
+      <label><input class="ff_elem" value="" id="f_elem_city2" name="city1" required placeholder="city"></label>
+      <label><input class="ff_elem" value="" id="f_elem_city3" name="city2" required placeholder="city"></label>
+      <label><input class="ff_elem" value="" id="f_elem_city4" name="city3" required placeholder="city"></label>
+      <label><input class="ff_elem" value="" id="f_elem_city5" name="city4" required placeholder="city"></label>
+      <div>
+          <input type="submit" value="Submit" class="btn btn-info" id="submitbtn">
+      </div>
+      <footer>
+          <p><a href="http://yashrajsingh.net/" target="_blank">Yash Raj Singh</a>'s Project for <br><a href="http://www.gophercon.in/" target="_blank">GopherConIndia 2015</a>.</p>
+      </footer>
+    </form>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&key={{.}}"></script>
+<script type="text/javascript">
+var init = function(){
+    var input1 = document.getElementById('f_elem_city1');
+    var input2 = document.getElementById('f_elem_city2');
+    var input3 = document.getElementById('f_elem_city3');
+    var input4 = document.getElementById('f_elem_city4');
+    var input5 = document.getElementById('f_elem_city5');
+    var options = {
+        types: ['(cities)']
+    };
+    autocomplete1 = new google.maps.places.Autocomplete(input1, options);
+    autocomplete2 = new google.maps.places.Autocomplete(input2, options);
+    autocomplete3 = new google.maps.places.Autocomplete(input3, options);
+    autocomplete4 = new google.maps.places.Autocomplete(input4, options);
+    autocomplete5 = new google.maps.places.Autocomplete(input5, options);
+}
+google.maps.event.addDomListener(window, 'load', init);
+</script>
+{{end}}

@@ -1,7 +1,9 @@
-application: tellmeweathernow
-version: 1
 runtime: go
 api_version: go1
+
+env_variables:
+  OWM_API_KEY: '2f76d3abe3e1664b2a781cafacb2fb77'
+  GM_API_KEY: 'AIzaSyD17u7s6GZXR-9p7l9atcf_7ly0IVxOUwE'
 
 handlers:
 - url: /static

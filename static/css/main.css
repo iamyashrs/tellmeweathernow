@@ -1,5 +1,14 @@
 body {
+    background-color: #c9dbe9;
+}
 
+.h3, h3 {
+    font-size: 1.5vw;
+}
+
+.card p {
+  font-size: 1.1vw;
+  margin-bottom: 0.2rem;
 }
 
 .ui-menu .ui-menu-item a,.ui-menu .ui-menu-item a.ui-state-hover, .ui-menu .ui-menu-item a.ui-state-active {
@@ -11,9 +20,6 @@ body {
 
 .ui-autocomplete-loading {
     background: white url("http://www.geobytes.com/images/ui-anim_basic_16x16.gif") right 3% center no-repeat;
-}
-
-.container {
 }
 
 @font-face {
@@ -75,6 +81,7 @@ footer {
 
 .card {
     height:100%;
+    padding: 15px;
     width:15%;
     background: #95B3E3;
     -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.35);
@@ -109,7 +116,7 @@ footer {
     color: black;
     font-size: 20px;
     float: left;
-    margin-top: 8px;
+    margin-top: 14px;
     margin-right: 8px;
 }
 
@@ -127,13 +134,6 @@ footer {
     float: left;
     height: 80%;
 }
-
-
-
-
-
-
-
 
 *{ margin: 0; padding: 0;}
 
