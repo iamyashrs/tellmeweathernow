@@ -63,19 +63,25 @@ func handleResult(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	var ws []CityWeather
-	var wg sync.WaitGroup
+	var (
+		ws []CityWeather  // collect all in this
+		wg sync.WaitGroup // wait till all are done
+		mu sync.Mutex     // no racing
+	)
 
 	for _, city := range citys {
 		wg.Add(1)
 
 		go func(c string) {
+			defer wg.Done()
+
 			err = wm.CurrentByName(c)
 			if err != nil {
 				log.Println("could not find weather data for: " + c)
 				return
 			}
 
+			mu.Lock()
 			ws = append(ws, CityWeather{
 				City:     wm.Name,
 				TempMaxC: wm.Main.TempMax,
@@ -85,8 +91,7 @@ func handleResult(w http.ResponseWriter, r *http.Request) {
 				Pressure: wm.Main.Pressure,
 				Desc:     wm.Weather[0].Main,
 			})
-
-			wg.Done()
+			mu.Unlock()
 		}(city)
 	}
 
