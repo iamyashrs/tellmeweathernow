@@ -1,0 +1,5 @@
+Script started on Wed Feb  5 20:05:22 2020
+command: for handler /.* must be set to auto for runtime go113.clear
+script: for: No such file or directory
+
+Script done on Wed Feb  5 20:05:22 2020
